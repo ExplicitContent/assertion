@@ -1,0 +1,4 @@
+  - Parameters [1] {
+    Parameter #0 [ <optional> string ...$? ]
+  }
+  - Return [ string ]

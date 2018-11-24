@@ -1,0 +1,14 @@
+parameters:
+    autoload_files:
+        - vendor/autoload.php
+
+    autoload_directories:
+        - boost
+        - src
+
+    ignoreErrors:
+        - '/function array_filter expects array, array/'
+        - '/function explode expects string, string/'
+        - '/Parameter .+ of method PhpParser.NodeTraverser::traverse/'
+        - '/Call to an undefined method PhpParser/'
+

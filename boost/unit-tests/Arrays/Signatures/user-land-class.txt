@@ -1,0 +1,5 @@
+  - Parameters [2] {
+    Parameter #0 [ <required> string $? ]
+    Parameter #1 [ <required> string $? ]
+  }
+  - Return [ string ]
