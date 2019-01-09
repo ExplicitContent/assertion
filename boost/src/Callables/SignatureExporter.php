@@ -4,11 +4,11 @@ namespace ExplicitContent\Boost\Callables;
 
 use Closure;
 use ExplicitContent\Assertion\Assertion;
+use function ExplicitContent\Boost\BoostedString\fstr;
 use Reflection;
 use ReflectionFunction;
 use ReflectionFunctionAbstract;
 use ReflectionMethod;
-use function ExplicitContent\Boost\Strings\fstr;
 
 /**
  * It allows to compare method signatures fast.
@@ -49,9 +49,13 @@ final class SignatureExporter
                     break;
                 }
 
-                Assertion::unreachable(fstr('Parser of signature failed, exported data: {dump}', [
-                    'dump' => $dump
-                ]));
+                Assertion::unreachable(
+                    fstr(
+                        'Parser of signature failed, exported data: {dump}', [
+                            'dump' => $dump
+                        ]
+                    )
+                );
             }
         }
 

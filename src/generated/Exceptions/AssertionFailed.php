@@ -4,8 +4,8 @@ namespace ExplicitContent\Assertion\Exceptions;
 
 use Error;
 use ExplicitContent\Assertion\Assertion;
+use function ExplicitContent\Boost\BoostedString\fstr;
 use ExplicitContent\Boost\StackTrace\StackTrace;
-use function ExplicitContent\Boost\Strings\fstr;
 
 final class AssertionFailed extends Error
 {

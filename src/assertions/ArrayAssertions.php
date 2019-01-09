@@ -6,10 +6,10 @@ use Closure;
 use ExplicitContent\Assertion\Exceptions\AssertionContainsError;
 use ExplicitContent\Assertion\Exceptions\AssertionFailed;
 use ExplicitContent\Boost\Behaviors\OffersUniqueHash;
+use function ExplicitContent\Boost\BoostedString\array2list;
+use function ExplicitContent\Boost\BoostedString\dump;
 use ExplicitContent\Boost\PhpType;
 use ReflectionClass;
-use function ExplicitContent\Boost\Strings\array2list;
-use function ExplicitContent\Boost\Strings\dump;
 
 /**
  * @internal

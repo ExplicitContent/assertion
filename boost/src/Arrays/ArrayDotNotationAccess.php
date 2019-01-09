@@ -2,8 +2,8 @@
 
 namespace ExplicitContent\Boost\Arrays;
 
+use function ExplicitContent\Boost\BoostedString\dump;
 use LogicException;
-use function ExplicitContent\Boost\Strings\dump;
 
 /**
  * Allows to access array keys with dot notation:

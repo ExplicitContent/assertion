@@ -4,10 +4,10 @@ namespace ExplicitContent\Assertion;
 
 use Closure;
 use ExplicitContent\Assertion\Exceptions\AssertionFailed;
-use ExplicitContent\Boost\Strings\BoostedString;
+use ExplicitContent\Boost\BoostedString\BoostedString;
+use function ExplicitContent\Boost\BoostedString\fstr;
 use ReflectionClass;
-use function ExplicitContent\Boost\Strings\dump;
-use function ExplicitContent\Boost\Strings\fstr;
+use function ExplicitContent\Boost\BoostedString\dump;
 
 final class Assertion
 {

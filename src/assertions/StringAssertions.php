@@ -4,9 +4,8 @@ namespace ExplicitContent\Assertion;
 
 use ExplicitContent\Assertion\Exceptions\AssertionContainsError;
 use ExplicitContent\Assertion\Exceptions\AssertionFailed;
+use function ExplicitContent\Boost\BoostedString\fstr;
 use ExplicitContent\Boost\ErrorHandling\ErrorSandbox;
-use function ExplicitContent\Boost\Strings\array2list;
-use function ExplicitContent\Boost\Strings\fstr;
 
 /**
  * @internal

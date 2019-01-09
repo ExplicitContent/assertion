@@ -3,7 +3,7 @@
 namespace ExplicitContent\Assertion;
 
 use ExplicitContent\Assertion\Exceptions\AssertionFailed;
-use function ExplicitContent\Boost\Strings\dump;
+use function ExplicitContent\Boost\BoostedString\dump;
 
 /**
  * @internal

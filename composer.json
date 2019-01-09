@@ -8,6 +8,7 @@
     "php": ">=7.2",
     "ext-json": "*",
     "ext-mbstring": "*",
+    "explicit-content/string-formatter": "dev-master",
     "nikic/php-parser": "^4.0"
   },
   "require-dev": {
@@ -18,8 +19,7 @@
     "psr-4": {
       "ExplicitContent\\Assertion\\": ["src/assertions/", "src/generated/"],
       "ExplicitContent\\Boost\\": "boost/src/"
-    },
-    "files": ["boost/src/functions.php"]
+    }
   },
   "autoload-dev": {
     "psr-4": {

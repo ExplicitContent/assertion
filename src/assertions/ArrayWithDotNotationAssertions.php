@@ -4,7 +4,7 @@ namespace ExplicitContent\Assertion;
 
 use ExplicitContent\Assertion\Exceptions\AssertionFailed;
 use ExplicitContent\Boost\Arrays\ArrayDotNotationAccess;
-use function ExplicitContent\Boost\Strings\array2list;
+use function ExplicitContent\Boost\BoostedString\array2list;
 
 /**
  * @internal

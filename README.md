@@ -15,7 +15,6 @@ TODO:
 - custom Assertion API generator (with copied assertions' code);
 - procedural facade generator for native `assert(that()->notNull(...));` (?);
 - more examples;
-- replace `fstr()` with decent string formatter;
 - ...
 
 ## Installation
